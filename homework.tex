@@ -1,0 +1,135 @@
+\documentclass[12pt,letterpaper]{article}
+%\topmargin -.45in
+\textwidth 6.5in
+\textheight 9.in
+\oddsidemargin 0in
+\headheight 0in
+\usepackage{graphicx}
+\usepackage{fancybox}
+%\usepackage{palatino}
+%% Language and font encodings
+\usepackage[spanish]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{eucal}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\pagestyle{empty}
+\DeclareMathOperator{\tr}{Tr}
+\newcommand*{\op}[1]{\check{\mathbf#1}}
+\newcommand{\bra}[1]{\langle #1 |}
+\newcommand{\ket}[1]{| #1 \rangle}
+\newcommand{\braket}[2]{\langle #1 | #2 \rangle}
+\newcommand{\mean}[1]{\langle #1 \rangle}
+\newcommand{\opvec}[1]{\check{\vec #1}}
+\renewcommand{\sp}[1]{$${\begin{split}#1\end{split}}$$}
+
+\usepackage{lipsum}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\begin{document}
+\pagestyle{plain}
+
+\begin{minipage}{0.45\textwidth}
+
+\begin{flushleft}
+\underline{Instituto Politécnico Nacional}\\
+Escuela Superior de Computo\\
+Bioinformatics
+\end{flushleft}
+
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+
+\begin{flushright}\vspace{-5mm}
+\includegraphics[height=1.5cm]{logo.png}
+\end{flushright}
+
+\end{minipage}
+ 
+\begin{center}
+\textbf{Homework 7: Section 1.9}\\
+\end{center}
+Ricardo Naranjo Polit \hfill Jorge Rosas Trigueros
+
+\begin{center}
+\textbf{Delivery date:} 4 Oct. 2018
+\end{center}
+
+ 
+\rule{\linewidth}{0.1mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bigskip
+\textbf{\large{Contents}}
+\\
+
+\begin{enumerate}
+\item What is the "genetic code"?
+\item What is a "Reading Frame"?
+\item What is a potential effect of high radiation energy on DNA?
+\item What kind of errors can arise during DNA replication?
+\item What can happen if there is a mutation in a stop codon?
+\item Describe a way in which a new species can appear.
+\item What is the difference between homologous, analogous, paralogous and orthologous proteins?
+\end{enumerate}
+
+
+\bigskip
+
+\section{ What is the genetic code?}
+The correspondence between each triplet of bases ofthe DNA and the coded amino acid.
+
+\section{What is a Reading Frame?}
+Is a way of dividing the sequence of nucleotides in a nucleic acid (DNA or RNA) molecule into a set of consecutive, non-overlapping triplets. Where these triplets equate to amino acids or stop signals during translation, they are called codons.
+
+\section{What is a potential effect of high radiation energy on DNA?}
+Can cause random damage to the DNA molecule.
+
+\section{What kind of errors can arise during DNA replication?}
+These can be of two types; replacements of DNA bases by others or deletions or insertions of any number of bases.
+
+\section{What can happen if there is a mutation in a stop codon?}
+If a stop codon mutates into a codon for an amino acid residue the translation continues, elongating the amino acid chain until the next stop codon is encountered.
+
+\section{Describe a way in which a new species can appear.}
+A new species can therefore originate when some individuals, for whatever reason, do not mate with the rest ofthe population for a sufficient length oftime. These individuals can follow a different evolutionary path that might result in genetic incompatibility with the original group. This can be because of physical separation between groups of individuals, or acquisition of different lifestyle, or spreading ofthe individuals over a huge geographical range.
+
+\section{What is the difference between homologous, analogous, paralogous and orthologous proteins?}
+Two elements (whether genes, proteins, anatomical structures) that derive from a common evolutionary ancestor are called "homologous".\\
+If two anatomical parts resemble each other but have a different evolutionary origin. , they are called analogous.\\
+Two proteins (or genes) believed to have diverged from each other because of speciation events are called orthologous. \\
+Two proteins (or genes) that are homologous, but have arisen after a duplication event are called paralogous.
+\end{document}
